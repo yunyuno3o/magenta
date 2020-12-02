@@ -6,7 +6,7 @@ Warnings may be printed by the MIDI parser if it encounters a malformed MIDI fil
 
 You can also convert [MusicXML](http://www.musicxml.com/) files and [ABC](http://abcnotation.com/) files to NoteSequences.
 ```
-INPUT_DIRECTORY=<folder containing MIDI and/or MusicXML files. can have child folders.>
+INPUT_DIRECTORY=<folder containing MIDI and/or MusicXML files.>
 
 # TFRecord file that will contain NoteSequence protocol buffers.
 SEQUENCES_TFRECORD=/tmp/notesequences.tfrecord
